@@ -1,0 +1,17 @@
+//extend
+
+%mains{
+    height: 80vh;   
+    justify-content: center;
+    justify-items: center;
+    align-items: center;        
+    background-color: $color-main;
+    margin: 1rem;
+    padding: 2rem; 
+    grid-area: main;
+    grid-template-areas: 
+    "h1 h1"
+    "h2 h2"            
+    "h3 h4"
+     ;   
+}

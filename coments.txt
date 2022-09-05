@@ -1,0 +1,12 @@
+h2 colores modificados desde _listas.scss
+
+mixin con map-get aplicado a main/section  en index.html y en h3
+
+extend todo el estilo de main incluido dentro del extend %mains
+
+
+
+
+
+
+
