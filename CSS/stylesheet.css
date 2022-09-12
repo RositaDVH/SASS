@@ -7,22 +7,19 @@ body main {
   margin: 1rem;
   padding: 2rem;
   grid-area: main;
-  grid-template-areas: "h1 h1" "h2 h2"             "h3 h4"; }
+  grid-template-areas: "h1 h1" "h2 h2"             "h3 h4 " "section section"; }
 
 body {
   display: grid;
-  grid-template-columns: 30px;
-  grid-template-rows: 50;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
   grid-template-areas: "header header header" "main main main"     "footer footer footer"; }
-  body header {
-    background-color: #2b63a3;
-    width: 250px; }
-    body header nav ul li {
-      font-size: 2rem;
-      text-align: center;
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      font-weight: bolder;
-      text-shadow: 2px; }
+  body header nav ul li {
+    font-size: 2rem;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    text-shadow: 2px; }
   body main h1 {
     grid-area: h1;
     text-align: center;
