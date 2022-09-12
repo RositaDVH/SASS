@@ -134,6 +134,15 @@ body{
                 text-align: center;
                 grid-area: footer;
         }
+
+        @media screen and (min-width:600px){
+
+            main{grid-template-areas: 
+            "header header header"
+            "main main main"
+            "footer footer footer"; 
+            }
+        }
     
 
 

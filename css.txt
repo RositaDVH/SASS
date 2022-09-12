@@ -7,13 +7,17 @@ body main {
   margin: 1rem;
   padding: 2rem;
   grid-area: main;
-  grid-template-areas: "h1 h1" "h2 h2"             "h3 h4"; }
+  grid-template-areas: "h1 h1"
+ "h2 h2"            
+ "h3 h4"; }
 
 body {
   display: grid;
   grid-template-columns: 30px;
   grid-template-rows: 50;
-  grid-template-areas: "header header header" "main main main"     "footer footer footer"; }
+  grid-template-areas: "header header header"
+ "main main main"    
+ "footer footer footer"; }
   body header {
     background-color: #2b63a3;
     width: 250px; }
@@ -82,7 +86,3 @@ footer {
   margin-top: 800px;
   text-align: center;
   grid-area: footer; }
-
-@media screen and (min-width: 600px) {
-  main {
-    grid-template-areas: "header header header" "main main main" "footer footer footer"; } }
